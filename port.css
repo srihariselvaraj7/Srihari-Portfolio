@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#aaa;
+    font-size:50px;
+    margin-left:100px;
+}
+@media screen and (max-width:600px){
+    .name{
+        margin-left: 35px;
+    }
+}
+
+.image{
+    margin-left: 500px;
+}
+@media screen and (max-width:801px){
+    .image{
+        margin-left: 35px;
+    }
+}
+
+.about{
+    text-align: center;
+    color:#f7f7f7;
+    background-color:  #006442;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    font-family:sans-serif;
+    padding:10px;
+}
+
+hr{
+   height: 5px;
+   background:rgb(1, 73, 15) ;
+   margin-left: 100px;
+   margin-right: 100px;
+   border:none;
+}
+
+.education{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.college{
+    background-color: #ccc;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    height:50px;
+    margin:20px;
+    padding:20px;
+}
+@media screen and (max-width:801px){
+    .college{
+        height:60px;
+    }
+}
+
+.hsc{
+    background-color: #ccc;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    margin:20px;
+    height:50px;
+    padding:20px;
+}
+@media screen and (max-width:801px){
+    .hsc{
+        height:60px;
+    }
+}
+
+.sslc{
+    background-color: #ccc;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    margin:20px;
+    height:50px;
+    padding:20px;
+}
+@media screen and (max-width:801px){
+    .sslc{
+        height:60px;
+    }
+}
+
+.skills{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.skill_logo{
+   font-size: 50px;
+   margin:10px;
+}
+
+.contact{
+    text-align: center;
+    font-size: 40px;
+    margin:10px;
+    cursor: pointer;
+}
+
+.projects{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.project_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+    color: #f7f7f7;
+}
+@media screen and (max-width:801px){
+    .project_images{
+        display:flex;
+        padding:10px;
+        flex-direction: column;
+    }
+}
+
+.img1{
+    background-color:  #006442;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+@media screen and (max-width:801px){
+    .img1{
+       margin-bottom: 20px;
+       margin-right: -1px;
+    }
+}
+
+.img2{
+    background-color:  #006442;
+    border-radius: 6px;
+}
+
+.awards{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+.certification1{
+    display:flex;
+}
+
+.first{
+    background-color: #fff;
+    margin:10px;
+    border-radius:10px;
+    box-shadow: 0 2px 10px rgba(0.4, 0.4, 0.4, 0.4);
+}
+
+.second{
+    background-color:#fff;
+    margin:10px;
+    border-radius:10px;
+    box-shadow: 0 2px 10px rgba(0.4, 0.4, 0.4, 0.4);
+}
+
+.third{
+    background-color: #fff;
+    margin:10px;
+    border-radius:10px;
+    box-shadow: 0 2px 10px rgba(0.4, 0.4, 0.4, 0.4);
+    padding:5px;
+}
+
+.rights{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #111;
+    color:#f7f7f7;
+    height:70px;
+    font-family:sans-serif;
+    padding:10px;
+}
